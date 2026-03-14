@@ -1,0 +1,35 @@
+/* styles.css */
+:root {
+  --primary-dark: #0d2b45;
+  --primary-green: #1f9d73;
+  --primary-gold: #d2a72c;
+  --light-bg: #f8f9fa;
+}
+
+.btn-primary {
+  background: var(--primary-dark) !important;
+  border: none !important;
+}
+
+.btn-success {
+  background: var(--primary-green) !important;
+  border: none !important;
+}
+
+.btn-gold {
+  background: var(--primary-gold) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.navbar {
+  font-family: inherit;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.footer-section {
+  font-size: 1rem;
+}
