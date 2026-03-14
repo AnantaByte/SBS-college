@@ -2,3 +2,30 @@
 .navbar {
   font-family: inherit;
 }
+
+@media (max-width: 767.98px) {
+  .navbar .navbar-brand {
+    flex-direction: row;
+    align-items: center;
+  }
+  .navbar .navbar-brand span {
+    font-size: 1rem !important;
+  }
+  .navbar-collapse {
+    background: #0d2b45;
+    padding: 1rem 0.5rem;
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  .navbar .btn {
+    width: 100% !important;
+    margin-bottom: 0.5rem;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-nav .nav-link {
+    padding: 0.7rem 0 !important;
+    font-size: 1.05rem;
+  }
+}

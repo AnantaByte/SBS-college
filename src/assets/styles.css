@@ -33,3 +33,47 @@
 .footer-section {
   font-size: 1rem;
 }
+
+/* Responsive adjustments for mobile */
+@media (max-width: 767.98px) {
+  .navbar .navbar-brand span {
+    font-size: 1rem !important;
+  }
+  .navbar .navbar-brand img {
+    height: 38px !important;
+    width: 38px !important;
+    margin-right: 0.5rem !important;
+  }
+  .navbar .btn {
+    font-size: 0.98rem !important;
+    padding: 0.6rem 1.2rem !important;
+    width: 100% !important;
+    margin-bottom: 0.5rem;
+  }
+  .hero-section {
+    min-height: 60vh !important;
+    padding-top: 3.5rem !important;
+    padding-bottom: 2rem !important;
+    text-align: center;
+  }
+  .hero-section .display-4 {
+    font-size: 2rem !important;
+  }
+  .hero-section .lead {
+    font-size: 1.1rem !important;
+  }
+  .hero-section .btn {
+    width: 100% !important;
+    margin-bottom: 0.5rem;
+  }
+  .card {
+    margin-bottom: 1rem !important;
+  }
+  .footer-section {
+    font-size: 0.95rem !important;
+    text-align: center;
+  }
+  .footer-section .row > div {
+    margin-bottom: 1.5rem;
+  }
+}
